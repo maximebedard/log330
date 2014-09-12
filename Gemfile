@@ -26,7 +26,16 @@ gem 'jquery-rails'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
+gem 'clearance'
+gem 'geocoder'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'shoulda-matchers', require: false
+  gem 'factory_girl_rails'
+end
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
