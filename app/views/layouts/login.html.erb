@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LOG330</title>
-  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "login", :media => "all" %>
   <%= yield :styles %>
   <%= csrf_meta_tags %>
 
@@ -20,11 +20,17 @@
 
 </head>
 <body>
-
-  <%= yield %>
-
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD28wyczXQXdz2WOEi7lI46-BAGiMidNb0"></script>
-  <%= javascript_include_tag "application" %>
+  <div class="container">
+    <div class="row">
+      <div class="col-span12 text-center">
+        <h1 class="logo">ᕕ( ᐛ )ᕗ</h1>
+      </div>
+    </div>
+    <div class="row">
+      <%= yield %>
+    </div>
+  </div>
+  <%= javascript_include_tag "login" %>
   <%= yield :scripts %>
 </body>
 </html>

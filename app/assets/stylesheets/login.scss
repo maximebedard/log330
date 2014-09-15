@@ -1,0 +1,22 @@
+/*
+ *= require bootstrap.min
+ *= require_self
+ */
+
+
+body{
+  background: image-url('bg.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.logo {
+  padding: 70px 25px 70px 25px;
+  display: inline-block;
+  background-color: #FFF;
+  border-radius: 115px;
+  border: #E7E7E7;
+}
