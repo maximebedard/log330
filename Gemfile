@@ -9,16 +9,19 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-
   gem 'uglifier', '>= 1.0.3'
 end
 
 
 gem 'jbuilder'
 gem 'jquery-rails'
-gem 'angular-rails-templates'
 gem 'devise'
 gem 'geocoder'
+gem 'high_voltage', '~> 2.2.1'
+
+gem 'active_model_serializers'
+gem 'ember-rails'
+gem 'ember-source', '~> 1.7.0'
 
 group :development, :test do
   gem 'rspec-rails'

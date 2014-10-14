@@ -1,4 +1,4 @@
-class AddressesController < ApplicationController
+class AddressesController < SecuredController
 
   def index
     Address.all
