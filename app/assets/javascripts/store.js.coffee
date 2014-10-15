@@ -1,7 +1,7 @@
 # http://emberjs.com/guides/models/#toc_store
 # http://emberjs.com/guides/models/pushing-records-into-the-store/
 
-Log330.Store = DS.Store.extend({
+Log330.ApplicationStore = DS.Store.extend({
 
 })
 
